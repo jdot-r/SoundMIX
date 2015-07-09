@@ -1,1 +1,15 @@
-
+name: SoundMIX
+author: ItzBulkDev
+version: 1.0.0
+api: [1.12.1]
+main: SoundMIX\Main
+load: POSTWORLD
+commands:
+ sound:
+  permission: soundmix.command
+  description: All of SoundMIX Commands
+  usage: /sound [soundname][list]
+permissions:
+    soundmix.command:
+      default: op
+      description: All of SoundMIX Commands
